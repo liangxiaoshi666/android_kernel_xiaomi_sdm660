@@ -23,6 +23,7 @@ jobs:
           aosp-gcc: true
           aosp-clang: true
           ksu: true
+          ksu-other: true
           ksu-url: https://github.com/rsuntk/KernelSU
           ksu-version: main
           android-version: 11
