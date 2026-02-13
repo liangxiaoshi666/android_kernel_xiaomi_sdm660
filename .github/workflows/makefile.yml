@@ -1,5 +1,5 @@
 # A simple action usage
-name: Build Kernel
+name: Build Kernel with rekernelsu
 on:
   workflow_dispatch:
 
@@ -22,10 +22,6 @@ jobs:
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          ksu: true
-          ksu-other: true
-          ksu-url: https://github.com/rsuntk/KernelSU
-          ksu-version: main
           android-version: 11
           aosp-clang-version: r383902
           disable-lto: true
