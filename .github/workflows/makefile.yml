@@ -17,7 +17,7 @@ jobs:
         with:
           kernel-url: https://github.com/liangxiaoshi666/android_kernel_xiaomi_sdm660
           kernel-dir: msm-4.4
-          kernel-branch: 11-EAS
+          kernel-branch: 11-EAS-KSU
           config: clover_defconfig
           arch: arm64
           aosp-gcc: true
